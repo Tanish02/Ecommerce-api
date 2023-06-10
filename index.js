@@ -14,6 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/product", require("./routers/product"));
 
+app.use("/", require("./routers/product"));
+
 // Server Create
 app.listen(port, (err) => {
   //any Error print err message
