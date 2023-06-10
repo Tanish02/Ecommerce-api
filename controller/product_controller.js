@@ -18,6 +18,7 @@ exports.create = (req, res, next) => {
     name: req.body.name,
     description: req.body.description,
     price: req.body.price,
+    quantity: req.body.quantity,
   });
 
   product
